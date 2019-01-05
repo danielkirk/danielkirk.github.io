@@ -65,7 +65,7 @@ class AboutMe extends Component {
             or check out my{" "}
             <a
               className="atag"
-              href="https://github.com/imdanielkirk"
+              href="https://github.com/danielkirk"
               target="_blank"
             >
               Github

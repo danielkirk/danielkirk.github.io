@@ -73,7 +73,7 @@ class Header extends Component {
               <li key="github" className="inline pr-4">
                 <a
                   className="swag"
-                  href="https://github.com/imdanielkirk"
+                  href="https://github.com/danielkirk"
                   target="_blank"
                 >
                   <i
