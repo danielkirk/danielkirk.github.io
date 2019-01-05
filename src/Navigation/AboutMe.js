@@ -19,7 +19,7 @@ class AboutMe extends Component {
         </div>
         <br />
         <br />
-        <div className="about col-md-4 offset-md-4">
+        <div className="about col-md-4 offset-md-4" style={{ width: "100vw" }}>
           <p style={{ textIndent: "35px" }}>
             Born and raised in Oceanside, California. I was an athlete
             throughout grade school until about Sophomore year. Sophomore year
