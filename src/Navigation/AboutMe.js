@@ -61,7 +61,7 @@ class AboutMe extends Component {
             Marvel.
           </p>
           <p>
-            Feel free to download my resume below for any inquiries about work.,
+            Feel free to download my resume below for any inquiries about work,
             or check out my{" "}
             <a
               className="atag"

@@ -5,7 +5,7 @@ class Dance extends Component {
     return (
       <footer id="contact" className="contact">
         <div>
-          <h1 className="offset-md-3 info">...More content is on the way</h1>
+          <h1 className="offset-md-2 info">...More content is on the way</h1>
         </div>
       </footer>
     );
