@@ -21,8 +21,8 @@ const styles = {
 class Header extends Component {
   render() {
     return (
-      <div className="App" style={styles}>
-        <header id="intro">
+      <div className="App">
+        <header id="intro" style={styles}>
           <div id="#home">
             <img
               src={require("./me.png")}
