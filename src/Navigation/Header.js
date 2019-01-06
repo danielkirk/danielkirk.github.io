@@ -7,9 +7,9 @@ const styles = {
     "https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif"
   )`,
   backgroundSize: "cover",
-  height: "100vh",
+  height: "100%",
   minWidth: "100vw",
-  maxHeight: "100vh",
+  minHeight: "100vh",
   top: 0,
   left: 0,
   display: "flex",
@@ -21,8 +21,8 @@ const styles = {
 class Header extends Component {
   render() {
     return (
-      <div className="App">
-        <header style={styles} id="intro">
+      <div className="App" style={styles}>
+        <header id="intro">
           <div id="#home">
             <img
               src={require("./me.png")}
