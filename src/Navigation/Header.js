@@ -8,7 +8,7 @@ const styles = {
   )`,
   backgroundSize: "cover",
   height: "100%",
-  minWidth: "100vw",
+  minWidth: "100v%",
   minHeight: "100vh",
   top: 0,
   left: 0,

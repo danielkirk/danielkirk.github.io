@@ -58,11 +58,19 @@
   color: white;
 }
 
+#samples {
+  background: #000000;
+  height: 40%;
+  min-width: 100vw;
+  min-height: 40vh;
+  max-height: 40%;
+}
+
 .contact {
   height: 10%;
   min-height: 10%;
   width: 100%;
-  background: #000000; /* fallback for old browsers */
+  background: #fffdfd; /* fallback for old browsers */
 }
 
 .info {
