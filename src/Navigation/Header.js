@@ -39,9 +39,10 @@ class Header extends Component {
               Daniel Kirk
             </h2>
             <h3
-              className="text1"
+              className="text1 offset-md-3"
               style={{
-                textShadow: "0px 1px 2px rgba(0, 0, 0, .8)"
+                textShadow: "0px 1px 2px rgba(0, 0, 0, .8)",
+                left: "16px"
               }}
             >
               Full-Stack Software Developer
