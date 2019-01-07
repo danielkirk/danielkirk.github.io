@@ -11,10 +11,14 @@ class AboutMe extends Component {
       <React.Fragment>
         <div className="row">
           <h1
-            className="mt-5 ml-4"
-            style={{ textShadow: "4px 4px 4px black", color: "white" }}
+            className="mt-5 ml-4 underline"
+            style={{
+              textShadow: "4px 1px 4px black",
+              color: "white",
+              letterSpacing: "5px"
+            }}
           >
-            Who is Daniel Kirk?
+            About Me
           </h1>
         </div>
         <br />

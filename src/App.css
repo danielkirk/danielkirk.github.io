@@ -58,6 +58,10 @@
   color: white;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .contact {
   height: 10%;
   min-height: 10%;
@@ -103,7 +107,7 @@
   }
 }
 
-#samples {
+#dance {
   background: #000000;
   height: 40%;
   min-width: 100vw;
