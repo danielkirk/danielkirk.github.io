@@ -48,21 +48,21 @@ class DanceStuff extends Component {
               title="Come and See Me"
               onClick={this.onClick}
               id={`O59Sak1X-nc`}
-              className="offset-md-1 items mr-3"
+              className="items mr-3"
               src="http://i3.ytimg.com/vi/O59Sak1X-nc/hqdefault.jpg"
             />
             <img
               title="Lord Pretty Flacko Jodye 2"
               onClick={this.onClick}
               id={`k6ULJV_u18A`}
-              className="offset-md-1 items mr-3"
+              className="items mr-3"
               src="http://i3.ytimg.com/vi/k6ULJV_u18A/hqdefault.jpg"
             />
             <img
               title="Lights"
               onClick={this.onClick}
               id={`dvxxILi48yo`}
-              className="offset-md-1 items"
+              className="items"
               src="http://i3.ytimg.com/vi/dvxxILi48yo/hqdefault.jpg"
             />
           </div>

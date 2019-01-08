@@ -7,7 +7,7 @@ const styles = {
     "https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif"
   )`,
   backgroundSize: "cover",
-  height: "100%",
+  height: "100vh",
   minWidth: "100v%",
   minHeight: "100vh",
   top: 0,
