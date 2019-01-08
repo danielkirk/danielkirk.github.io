@@ -74,23 +74,24 @@ class AboutMe extends Component {
             >
               Github
             </a>{" "}
-            .
+            for my work samples.
           </p>
           <br />
           <button id="resumebutton" className="btn mb-4" onClick={this.onClick}>
             Download Resume
           </button>
-          <p style={{ color: "white" }}>
-            Also contact me at:
-            <br />
-            Phone Number: <span style={{ color: "grey" }}>
-              (760) 672-0397
-            </span>{" "}
-            <br /> Email:{" "}
-            <a className="atag" href="mailto:imdanielkirk@gmail.com">
-              imdanielkirk@gmail.com
-            </a>{" "}
-          </p>
+          <div id="contact">
+            <p style={{ color: "white" }}>
+              Also contact me at:
+              <br />
+              Phone Number:{" "}
+              <span style={{ color: "grey" }}>(760) 672-0397</span> <br />{" "}
+              Email:{" "}
+              <a className="atag" href="mailto:imdanielkirk@gmail.com">
+                imdanielkirk@gmail.com
+              </a>{" "}
+            </p>
+          </div>
         </div>
       </React.Fragment>
     );

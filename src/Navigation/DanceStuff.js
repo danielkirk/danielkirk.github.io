@@ -66,7 +66,7 @@ class DanceStuff extends Component {
               src="http://i3.ytimg.com/vi/dvxxILi48yo/hqdefault.jpg"
             />
           </div>
-          <hr style={{ border: "1px dashed white" }} />
+          <hr className="hr" />
         </div>
       </React.Fragment>
     );

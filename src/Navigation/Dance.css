@@ -122,6 +122,15 @@
   opacity: 0.5;
 }
 
+.hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: #fffffa;
+  height: 1px;
+}
+
 .container {
   margin: 0 auto;
   padding: 40px;

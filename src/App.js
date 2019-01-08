@@ -16,13 +16,9 @@ class App extends Component {
           id="about"
           style={{
             backgroundColor: "rgb(24,24,24)",
-            // backgroundSize: "cover",
             height: "100%",
             minHeight: "100%",
             width: "100vw"
-            // minWidth: "100%",
-            // top: 0,
-            // left: 0
           }}
         >
           <AboutMe />
