@@ -4,7 +4,6 @@ import Header from "./Navigation/Header";
 import AboutMe from "./Navigation/AboutMe";
 import Contact from "./Navigation/Contact";
 import DanceStuff from "./Navigation/DanceStuff";
-import Dance from "./Navigation/Contact";
 
 class App extends Component {
   render() {
