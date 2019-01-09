@@ -109,12 +109,10 @@
 
 #dance {
   background: #000000;
-  height: 40%;
-  min-width: 100vw;
-  min-height: 40vh;
-  max-height: 40%;
-  justify-content: center;
-  justify-items: center;
-  display: flex;
-  flex-direction: column;
+  height: 30%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }

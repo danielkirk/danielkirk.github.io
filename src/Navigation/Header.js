@@ -7,9 +7,10 @@ const styles = {
     "https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif"
   )`,
   backgroundSize: "cover",
-  height: "100vh",
-  minWidth: "100v%",
+  height: "100%",
+  minWidth: "100vw",
   minHeight: "100vh",
+  maxHeight: "100%",
   top: 0,
   left: 0,
   display: "flex",
@@ -21,8 +22,8 @@ const styles = {
 class Header extends Component {
   render() {
     return (
-      <div className="App">
-        <header id="intro" style={styles}>
+      <div className="App" style={styles}>
+        <header id="intro">
           <div id="#home">
             <img
               src={require("./me.png")}
@@ -39,10 +40,9 @@ class Header extends Component {
               Daniel Kirk
             </h2>
             <h3
-              className="text1 offset-md-3"
+              className="text1 "
               style={{
-                textShadow: "0px 1px 2px rgba(0, 0, 0, .8)",
-                left: "16px"
+                textShadow: "0px 1px 2px rgba(0, 0, 0, .8)"
               }}
             >
               Full-Stack Software Developer

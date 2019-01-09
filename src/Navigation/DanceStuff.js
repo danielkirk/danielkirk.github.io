@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
 import ModalVideo from "react-modal-video";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+
 import "./Dance.css";
 
 class DanceStuff extends Component {
@@ -10,17 +12,28 @@ class DanceStuff extends Component {
   }
 
   onClick = evt => {
-    this.setState({ movieID: evt.target.id, isOpen: true });
+    console.log(evt.target);
+    this.setState({ movieID: evt.target.alt, isOpen: true });
   };
 
   render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
+    const images = [
+      {
+        original: require("./My Post (6).jpg"),
+        thumbnail: require("./My Post (6).jpg"),
+        originalAlt: "O59Sak1X-nc"
+      },
+      {
+        original: require("./My Post (7).jpg"),
+        thumbnail: require("./My Post (7).jpg"),
+        originalAlt: "k6ULJV_u18A"
+      },
+      {
+        original: require("./My Post (8).jpg"),
+        thumbnail: require("./My Post (8).jpg"),
+        originalAlt: "dvxxILi48yo"
+      }
+    ];
     return (
       <React.Fragment>
         <div id="dance">
@@ -37,35 +50,13 @@ class DanceStuff extends Component {
           <p className="ml-4" style={{ color: "dimGrey", fontSize: "13px" }}>
             *click on image to view video
           </p>
+          <ImageGallery items={images} onClick={this.onClick} />
           <ModalVideo
             channel="youtube"
             isOpen={this.state.isOpen}
             videoId={this.state.movieID}
             onClose={() => this.setState({ isOpen: false })}
           />
-          <div className="pb-4">
-            <img
-              title="Come and See Me"
-              onClick={this.onClick}
-              id={`O59Sak1X-nc`}
-              className="items mr-3"
-              src="http://i3.ytimg.com/vi/O59Sak1X-nc/hqdefault.jpg"
-            />
-            <img
-              title="Lord Pretty Flacko Jodye 2"
-              onClick={this.onClick}
-              id={`k6ULJV_u18A`}
-              className="items mr-3"
-              src="http://i3.ytimg.com/vi/k6ULJV_u18A/hqdefault.jpg"
-            />
-            <img
-              title="Lights"
-              onClick={this.onClick}
-              id={`dvxxILi48yo`}
-              className="items"
-              src="http://i3.ytimg.com/vi/dvxxILi48yo/hqdefault.jpg"
-            />
-          </div>
           <hr className="hr" />
         </div>
       </React.Fragment>
