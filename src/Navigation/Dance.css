@@ -141,6 +141,15 @@
   width: 100%;
 }
 .image-gallery-slide img:hover {
-  opacity: 0.97;
   cursor: pointer;
+  animation: image 1s infinite;
+}
+
+@keyframes image {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.83;
+  }
 }
