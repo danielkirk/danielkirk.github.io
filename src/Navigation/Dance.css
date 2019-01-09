@@ -141,6 +141,6 @@
   width: 100%;
 }
 .image-gallery-slide img:hover {
-  opacity: 0.9;
+  opacity: 1;
   cursor: pointer;
 }
