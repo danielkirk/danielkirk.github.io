@@ -140,3 +140,7 @@
   height: 650px;
   width: 100%;
 }
+.image-gallery-slide img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
