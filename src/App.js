@@ -16,7 +16,8 @@ class App extends Component {
           style={{
             backgroundColor: "rgb(24,24,24)",
             height: "100%",
-            minHeight: "100%",
+            minHeight: "100vh",
+            maxHeight: "100%",
             width: "100vw"
           }}
         >

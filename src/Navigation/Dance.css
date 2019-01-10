@@ -145,6 +145,14 @@
   animation: image 1s infinite;
 }
 
+.image-gallery-play-button {
+  display: none;
+}
+
+.image-gallery-fullscreen-button {
+  display: none;
+}
+
 @keyframes image {
   0% {
     opacity: 1;

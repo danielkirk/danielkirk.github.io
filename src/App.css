@@ -80,11 +80,11 @@
 
 @keyframes info {
   0% {
-    letter-spacing: 15px;
+    letter-spacing: 12px;
     color: gold;
   }
   30% {
-    letter-spacing: 20px;
+    letter-spacing: 14px;
     color: silver;
   }
   85% {
