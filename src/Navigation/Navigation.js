@@ -13,7 +13,7 @@ class Navigation extends Component {
       );
     });
     return (
-      <nav className="navigation">
+      <nav className="navigation" style={{ background: "black" }}>
         <ul className="navcomps">{navLinks}</ul>
       </nav>
     );
