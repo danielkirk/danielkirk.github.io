@@ -10,7 +10,9 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navigation logo="Portfolio" />
-        <Header />
+        <div>
+          <Header />
+        </div>
         <div
           id="about"
           style={{

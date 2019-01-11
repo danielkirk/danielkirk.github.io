@@ -26,6 +26,7 @@ class Header extends Component {
         <header>
           <div id="#home">
             <img
+              style={{ zIndex: 100 }}
               src={require("./me.png")}
               height={"250vh"}
               className="avatar-img"

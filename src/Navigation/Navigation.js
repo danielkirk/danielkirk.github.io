@@ -7,13 +7,18 @@ class Navigation extends Component {
     const sections = ["Intro", "About", "Dance"];
     const navLinks = sections.map(link => {
       return (
-        <li>
-          <AnchorLink href={"#" + link.toLowerCase()}>{link}</AnchorLink>
+        <li className="nav-item">
+          <AnchorLink className="nav-link" href={"#" + link.toLowerCase()}>
+            {link}
+          </AnchorLink>
         </li>
       );
     });
     return (
-      <nav className="navigation" style={{ background: "black" }}>
+      <nav
+        className="justify-content-center nav nav-tabs"
+        style={{ background: "black", border: "none" }}
+      >
         <ul className="navcomps">{navLinks}</ul>
       </nav>
     );
