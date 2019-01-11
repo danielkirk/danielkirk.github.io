@@ -5,6 +5,7 @@
 
 nav {
   position: fixed;
+  z-index: 12341234;
   display: flex;
   width: 100vw;
   justify-content: space-between;
