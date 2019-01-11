@@ -38,7 +38,7 @@ class DanceStuff extends Component {
       <React.Fragment>
         <div id="dance">
           <h2
-            className="pt-4 ml-2 underline"
+            className="pt-5 ml-2 underline"
             style={{
               textShadow: "1px 1px 1px grey",
               color: "white",
