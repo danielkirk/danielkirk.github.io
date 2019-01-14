@@ -19,7 +19,9 @@ class Navigation extends Component {
         className="justify-content-center nav nav-tabs"
         style={{ background: "black", border: "none" }}
       >
-        <ul className="navcomps">{navLinks}</ul>
+        <ul className="navcomps" style={{ fontFamily: "Helvetica" }}>
+          {navLinks}
+        </ul>
       </nav>
     );
   }
