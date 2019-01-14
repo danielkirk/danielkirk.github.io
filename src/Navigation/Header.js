@@ -56,7 +56,7 @@ class Header extends Component {
                 textShadow: "0px 1px 2px rgba(0, 0, 0, .8)"
               }}
             >
-              HTML | CSS | JavaScript | .NET | NodeJS | C# | ReactJS | Redux | SQL |
+              HTML | CSS | JavaScript | .NET | Node JS | C# | ReactJS | Redux | SQL |
               T-SQL | jQuery
             </h4>
             <hr />
