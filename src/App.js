@@ -4,6 +4,7 @@ import Header from "./Navigation/Header";
 import AboutMe from "./Navigation/AboutMe";
 import Contact from "./Navigation/Contact";
 import DanceStuff from "./Navigation/DanceStuff";
+import Experience from "./Navigation/Experience"
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         >
           <AboutMe />
         </div>
+        <Experience />
         <DanceStuff />
         <Contact />
       </React.Fragment>
