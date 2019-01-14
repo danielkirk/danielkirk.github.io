@@ -25,6 +25,9 @@ class AboutMe extends Component {
         <br />
         <div className="about col-md-4 offset-md-4" style={{ width: "100vw" }}>
           <p style={{ textIndent: "35px" }}>
+            Software Developer with working knowledge of the front end to back end development cycle. Well-versed in the .NET framework, NodeJS, JavaScript, SQL, T-SQL, C#, ReactJS, and Redux. Robust background in team environments and independent projects.
+        </p>
+          <p style={{ textIndent: "35px" }}>
             Born and raised in Oceanside, California. I was an athlete
             throughout grade school until about Sophomore year. Sophomore year
             is the time when the realization that my passion for playing sports
