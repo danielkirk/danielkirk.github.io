@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class AboutMe extends Component {
   onClick = () => {
     window.location =
-      "https://drive.google.com/file/d/13-VGFYmEqbFb3FbfhyqKBuQooNxJ1eDf/view?usp=sharing";
+      "https://drive.google.com/file/d/1YcUbFhy0DF3B6WAf8VyeUlJq0zFjGpk9/view?usp=sharing";
   };
 
   render() {
@@ -26,23 +26,19 @@ class AboutMe extends Component {
         <div className="about col-md-4 offset-md-4" style={{ width: "100vw" }}>
           <p style={{ textIndent: "35px" }}>
             Software Developer with working knowledge of the front end to back
-            end development cycle. Well-versed in the .NET framework, NodeJS,
-            JavaScript, SQL, T-SQL, C#, ReactJS, and Redux. Robust background in
-            team environments and independent projects.
+            end development cycle. Well-versed in the ADO.Net, ASP.Net, .Net
+            CORE, NodeJS, Entity Framework CORE, JavaScript, SQL, T-SQL, C#,
+            ReactJS, Redux, AngularJS. Robust background in team environments
+            and independent projects.
           </p>
           <p style={{ textIndent: "35px" }}>
-            Born and raised in Oceanside, California. I was an athlete
-            throughout grade school until about Sophomore year. Sophomore year
-            is the time when the realization that my passion for playing sports
-            had subsided, and the passion for dance came to fruition.
-          </p>
-          <p style={{ textIndent: "35px" }}>
-            Beginning my dancing career as an Artistic Director on a team called
-            Zero2Hero. I remained with the team for 4-5 years, but it then
-            became time for me to embark on a new journey. Thus, began my 1-2
-            year tenure in Los Angeles as an urban choreography
-            instructor/student. The time in Los Angeles was a time of
-            self-realization, hardwork, and struggle. After this temporary
+            If you care to know a little bit more about me personally, feel free
+            to read this exerpt. Beginning my dancing career as an Artistic
+            Director on a team called Zero2Hero. I remained with the team for
+            4-5 years, but it then became time for me to embark on a new
+            journey. Thus, began my 1-2 year tenure in Los Angeles as an urban
+            choreography instructor/student. The time in Los Angeles was a time
+            of self-realization, hardwork, and struggle. After this temporary
             adventure, I came to the realization that there was something bigger
             in my life that brought constant enjoyment to my life, that wasn't
             noticeable at first. This epiphany was that web/software
@@ -50,18 +46,22 @@ class AboutMe extends Component {
             decided this was my newest, and permanent venture.
           </p>
           <p style={{ textIndent: "35px" }}>
-            For about a year, I emerged myself within the languages of
-            JavaScript, C#, and SQL through various online tutorials. After
-            getting comfortable, I decided to take a chance and apply for a
-            startup called Eleveight. Through a vetting process, I was able to
-            get into the project. Hours upon hours were spent enduring the
-            process of creating this application; an application to bring ease
-            to case management workers who struggle with always searching
-            through documents, contacting sources for funding, keeping tabs on
-            their clientele. Eleveight is an application created to make all the
-            duties of a case worker, available at the click of a button while
-            maintaining security protocol through HIPPA Compliancy. This project
-            emplored the usage of ReactJS, Redux, SQL, C#, .NET, and JavaScript.
+            After getting comfortable in programming/developing, I decided to
+            take a chance and apply for a startup called Eleveight. Through a
+            vetting process, I was able to get into the project. Hours upon
+            hours were spent enduring the process of creating this application;
+            an application to bring ease to case management workers who struggle
+            with always searching through documents, contacting sources for
+            funding, keeping tabs on their clientele. Eleveight is an
+            application created to make all the duties of a case worker,
+            available at the click of a button while maintaining security
+            protocol through HIPPA Compliancy. This project emplored the usage
+            of ReactJS, Redux, SQL, C#, .NET, and JavaScript.
+          </p>
+          <p style={{ textIndent: "35px" }}>
+            Currently working for IAPMO, an organization that implements
+            comprehensive plumbing and mechanical systems around the world. The
+            application being created uses AngularJS, C#, EF CORE, and SQL.
           </p>
           <p style={{ textIndent: "35px" }}>
             Other than that of programming, I hold interest in the following:

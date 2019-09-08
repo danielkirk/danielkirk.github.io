@@ -39,19 +39,6 @@ class Experience extends Component {
               className="mt-5 col-md-4 offset-md-2"
               style={{ boxShadow: "4px 1px 4px black" }}
             >
-              <img
-                className="pt-3"
-                src="http://eleveight.azurewebsites.net/Content/assets/img/app/eleveight-logo-navbar.png"
-                style={{
-                  border: "none",
-                  display: "block",
-                  margin: "0 auto",
-                  width: "100%"
-                }}
-              />
-              <p
-                style={{ fontSize: "13px", color: "grey" }}
-              >{`*(June 2018-Current)`}</p>
               <h5
                 className="mt-3 mb-5"
                 style={{
@@ -62,26 +49,15 @@ class Experience extends Component {
               >
                 Full-Stack Developer | Eleveight
               </h5>
+              <p
+                style={{ fontSize: "13px", color: "grey" }}
+              >{`*(June 2018 to January 2019)`}</p>
               <ul className="pb-5">{list}</ul>
             </div>
             <div
               className="mt-5 col-md-4 offset-md-1"
               style={{ boxShadow: "4px 1px 4px black" }}
             >
-              <img
-                className="pt-3"
-                src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/1474423_659866570731688_775069430_n.jpg?_nc_cat=100&_nc_ht=scontent-lax3-1.xx&oh=bf2bedcb799e2ddc300d33f5e27f1c12&oe=5CBC10D8"
-                style={{
-                  border: "none",
-                  display: "block",
-                  margin: "0 auto",
-                  height: "30%",
-                  width: "90%"
-                }}
-              />
-              <p
-                style={{ fontSize: "13px", color: "grey" }}
-              >{`*(Aug. 2013 to December 2017)`}</p>
               <h5
                 className="mt-3 mb-5"
                 style={{
@@ -90,23 +66,23 @@ class Experience extends Component {
                   margin: "0 auto"
                 }}
               >
-                Artistic Dance Director | ZeroIIHero
+                Web/Applications Developer | IAPMO
               </h5>
+              <p
+                style={{ fontSize: "13px", color: "grey" }}
+              >{`*(Feb. 2019 to Present)`}</p>
               <ul>
                 <li>
-                  Directed a team of 18+ year old dancers in urban choreography.
-                  This team went to various competitions, and performed at
-                  exhibitions throughout California. One of our main awards was
-                  getting 3rd place at SoCal's Best Dance Crew competition
+                  The IAPMO Group is a complete service organization providing:
+                  code development assistance, industry-leading education,
+                  personnel certification, plumbing, electro-plumbing, and
+                  mechanical product testing and certification, building product
+                  evaluation and a manufacturer-preferred quality assurance
+                  program.
                 </li>
                 <li>
-                  Contributed various choreography pieces to multiple medleys,
-                  in order to be showcased at events, showcases, and
-                  competitions.
-                </li>
-                <li>
-                  Created formations/blocked for pieces to be performed on stage
-                  by members of the team.
+                  Worked as a Full-Stack Developer to create an application to
+                  optimize research and testing of Products within IAPMO.
                 </li>
               </ul>
             </div>
